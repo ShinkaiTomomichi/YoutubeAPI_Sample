@@ -1,0 +1,8 @@
+# 認証情報
+secret/*
+
+# outputも大きいため除外
+output/*
+
+# .ipynb_checkpoints
+*.ipynb_checkpoints/*
