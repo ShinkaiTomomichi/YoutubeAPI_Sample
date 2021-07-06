@@ -1,3 +1,6 @@
+# Mac
+.DS_Store
+
 # 認証情報
 secret/*
 
@@ -5,4 +8,4 @@ secret/*
 output/*
 
 # .ipynb_checkpoints
-*.ipynb_checkpoints/*
+.ipynb_checkpoints/
