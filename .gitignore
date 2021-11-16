@@ -4,8 +4,19 @@
 # 認証情報
 secret/*
 
-# outputも大きいため除外
+# cronの実行ファイル
+# 絶対pathの記述があるため除外
+cron/*
+
+# outputは大きいため除外
 output/*
 
 # .ipynb_checkpoints
 .ipynb_checkpoints/
+
+# 公開する必要のない雑処理を実行するためのコード
+secret_process.ipynb
+
+# 空のディレクトリを残すため
+!.gitkeep
+
